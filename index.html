@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+
+
+      <div className='w-screen h-[50vh] bg-gray-100'></div>
+      
+      <div className="footer-up w-screen h-[50vh] bg-gradient-to-br from-[#FF626D] via-[#F3F9D5] to-[#F3F9D5] flex flex-col justify-between">
+        
+        <!-- {/* Main content in footer-up */} -->
+        <div className="top-section flex justify-end items-center h-[40vh] px-[4vw] py-[5vh]">
+          <div className="right w-[60vw] h-full flex justify-between items-start px-[4vw] py-[5vh]">
+            
+            <!-- {/* Mediease content */} -->
+            <div className='w-[20vw]'>
+              <h2 className='text-2xl font-bold'>Mediease</h2>
+              <h4 className='w-[15vw]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sint fugit molestias dignissimos ex, inventore odio ea quod exercitationem rerum!</h4>
+            </div>
+            
+            <!-- {/* Links section */} -->
+            <div className='w-[10vw] flex flex-col gap-[1vh]'>
+              <h3 className='text-xl font-semibold mb-[1vh]'>Quick Links</h3>
+              <a href="#" className='text-lg font-semibold'>Home</a>
+              <a href="#" className='text-lg font-semibold'>Best Doctors</a>
+              <a href="#" className='text-lg font-semibold'>Patients</a>
+              <a href="#" className='text-lg font-semibold'>Appointments</a>
+            </div>
+
+            <!-- {/* Contact section */} -->
+            <div className='w-[15vw] flex flex-col gap-[1vh]'>
+              <h3 className='text-xl font-semibold mb-[1vh]'>Contact Us</h3>
+              <a href="#" className='text-lg font-semibold'>Contact</a>
+              <a href="#" className='text-lg font-semibold'>Explore</a>
+              <a href="#" className='text-lg font-semibold'>Medicine</a>
+              <a href="#" className='text-lg font-semibold'>FAQ's</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- {/* Search and Follow us section */} -->
+        <div className="bottom-section flex justify-between items-center px-[4vw] pb-[2vh]">
+          
+          <!-- {/* Left div with search bar */} -->
+          <div className="search-section flex items-center gap-[1vw]">
+            <input 
+              type="text" 
+              placeholder="Search..." 
+              className="w-[15vw] h-[6vh] px-[1vw] rounded-md border border-gray-400"
+            />
+            <button className="h-[6vh] bg-blue-500 text-white px-[1vw] rounded-md flex items-center">
+              <i className="fa fa-search mr-[0.5vw]"></i> Search
+            </button>
+          </div>
+
+          <!-- {/* Right div with Follow us section */} -->
+          <div className="follow-us flex items-center gap-[0.5vw]">
+            <h4 className='text-lg font-semibold mr-[0.2vw]'>Follow us</h4>
+            <i className="fa-brands fa-facebook text-xl text-blue-600 p-[0.3vw] hover:bg-blue-200 rounded-full"></i>
+            <i className="fa-brands fa-instagram text-xl text-pink-500 p-[0.3vw] hover:bg-pink-200 rounded-full"></i>
+            <i className="fa-brands fa-twitter text-xl text-blue-400 p-[0.3vw] hover:bg-blue-200 rounded-full"></i>
+          </div>
+          
+        </div>
+      </div>
+   
+
+
+
+</body>
+</html>
